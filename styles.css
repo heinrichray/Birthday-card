@@ -1,0 +1,108 @@
+body{
+  font-family: 'Happy Monkey', cursive;
+  color: white;
+  background: linear-gradient(lightblue, pink);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1, h2, h3,h4 {
+  text-shadow: 0 0 1px black;
+}
+
+#celebrant{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 6px solid #EFB0C9;
+}
+#bday-age{
+  background: #EFB0C9;
+  padding:5px 10px;
+  border-radius: 5px;
+  margin:5px 0px 10px 0px;
+}
+#bday-date{
+  margin:5px 0px 10px 0px;
+  background: #EFB0C9;
+  padding:5px 10px;
+  border-radius: 5px;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gift-section{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#greeting{
+  color: white;
+  text-shadow: 0 0 3px black;
+  margin-bottom: 5px;
+}
+#hover{
+  margin-top: 5px;
+  text-shadow: 0 0 3px black;
+}
+
+.gift{
+  background-image:url("./images/gift-wrap.webp");
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border: 5px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  background-size:cover;
+}
+
+#present:hover{
+  background-image: url("/images/budoy.jpg");
+  transition: .2s;
+}
+
+#reaction:hover{
+  background-image: url("/images/dance-party.gif");
+  transition: .2s;
+}
+
+#description:hover{
+  background-image: url("/images/glamorous-fergie.gif");
+  transition: .2s;
+}
+
+#badass:hover{
+  background-image: url("/images/teresa-palmer.gif");
+  transition: .2s;
+}
+
+#cheers:hover{
+  background-image: url("/images/cyprien-champagne.gif");
+  transition: .2s;
+}
+
+#cheers{
+  height: 200px;
+}
+
+a{
+  color: white;
+}
+
+h4{
+  font-style:italic;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  text-shadow: 0 0 3px black;
+  margin-bottom: 5px;
+}
